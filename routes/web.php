@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index']);
 Route::get('/contact', [\App\Http\Controllers\ContactController::class, 'index']);
 Route::get('/about', [\App\Http\Controllers\AboutController::class, 'index']);
+Route::get('/reload-captcha', [\App\Http\Controllers\ContactController::class, 'reloadCaptcha']);
