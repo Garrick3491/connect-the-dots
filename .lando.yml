@@ -3,3 +3,13 @@ recipe: laravel
 config:
   webroot: public
   php: "8.1"
+
+services:
+  node:
+    type: node:16
+
+tooling:
+  npm:
+    service: node
+  node:
+    service: node

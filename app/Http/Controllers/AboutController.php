@@ -9,6 +9,11 @@ class AboutController extends Controller
     //
     public function index()
     {
-        return view('index');
+        return view('about');
+    }
+
+    public function activities()
+    {
+        return view('activities');
     }
 }
