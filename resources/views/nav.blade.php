@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-    <span class="navbar-brand mb-0 h1"><img style="max-width: 20%; height: auto;" src="{{ asset('images/Connect_The_Dots_Logo.png') }}" alt="Logo"></span>
+    <span class="navbar-brand mb-0 h1"><img style="max-width: 25%; height: auto;" src="{{ asset('images/Connect_The_Dots_Logo.png') }}" alt="Logo"></span>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             @component('nav-pill')

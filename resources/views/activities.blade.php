@@ -54,10 +54,10 @@
         </div>
         <div class="col-md-6">
             <ul>
-                <li>Sports:<ul>
-                        <li>football</li>
-                        <li>badminton</li>
-                        <li>basketball</li>
+                <li>Sports<ul>
+                        <li>Football</li>
+                        <li>Badminton</li>
+                        <li>Basketball</li>
                     </ul>
                 </li>
                 <li>Gaming</li>
