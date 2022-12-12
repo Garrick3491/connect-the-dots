@@ -6,6 +6,9 @@
                 @slot('active')
                     {{$active_home}}
                 @endslot
+                @slot('underscore')
+                    {{$underscore_home}}
+                @endslot
                 @slot('url')
                     {{url('/')}}
                 @endslot
@@ -13,20 +16,26 @@
                         Home
                     @endslot
             @endcomponent
-                @component('nav-pill')
-                    @slot('active')
-                        {{$active_about_us}}
-                    @endslot
-                    @slot('url')
-                        {{url('/about')}}
-                    @endslot
-                    @slot('title')
-                        About Us
-                    @endslot
-                @endcomponent
+{{--                @component('nav-pill')--}}
+{{--                    @slot('active')--}}
+{{--                        {{$active_about_us}}--}}
+{{--                    @endslot--}}
+{{--                        @slot('underscore')--}}
+{{--                            {{$underscore_about_us}}--}}
+{{--                        @endslot--}}
+{{--                    @slot('url')--}}
+{{--                        {{url('/about')}}--}}
+{{--                    @endslot--}}
+{{--                    @slot('title')--}}
+{{--                        About Us--}}
+{{--                    @endslot--}}
+{{--                @endcomponent--}}
                 @component('nav-pill')
                     @slot('active')
                         {{$active_activities}}
+                    @endslot
+                    @slot('underscore')
+                        {{$underscore_activities}}
                     @endslot
                     @slot('url')
                         {{url('/activities')}}
@@ -56,11 +65,11 @@
             <div class="modal-body">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">ADDRESS</li>
-                    <li class="list-group-item"><a href="mailto:connectthedotsbradford@gmail.com">Send us an email</a></li>
                     <li class="list-group-item">07845 561300</li>
                 </ul>
             </div>
             <div class="modal-footer">
+                <a href="mailto:connectthedotsbradford@gmail.com" class="btn btn-warning">Email Us</a>
                 <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
             </div>
         </div>

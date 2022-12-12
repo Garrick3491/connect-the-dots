@@ -13,6 +13,18 @@
     @slot('active_about_us')
 
     @endslot
+    @slot('underscore_home')
+        0
+    @endslot
+    @slot('underscore_contact')
+        1
+    @endslot
+    @slot('underscore_activities')
+        0
+    @endslot
+    @slot('underscore_about_us')
+        0
+    @endslot
 @endcomponent
 @section('content')
     <div class="col-md-12 mt-5">
